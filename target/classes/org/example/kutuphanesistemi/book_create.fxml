@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.book_create">
+   <children>
+      <Label layoutX="59.0" layoutY="33.0" prefHeight="35.0" prefWidth="90.0" text="Adı:" />
+      <Label layoutX="59.0" layoutY="81.0" prefHeight="35.0" prefWidth="90.0" text="Yazarı:" />
+      <Label layoutX="59.0" layoutY="132.0" prefHeight="35.0" prefWidth="90.0" text="yayınevi:" />
+      <Label layoutX="59.0" layoutY="185.0" prefHeight="35.0" prefWidth="90.0" text="Basım Tarihi:" />
+      <Label layoutX="59.0" layoutY="230.0" prefHeight="35.0" prefWidth="90.0" text="Türü:" />
+      <TextField fx:id="kitap_ad" layoutX="165.0" layoutY="38.0" />
+      <TextField fx:id="kitap_yazar" layoutX="165.0" layoutY="86.0" />
+      <TextField fx:id="kitap_yayinevi" layoutX="165.0" layoutY="137.0" />
+      <Button layoutX="127.0" layoutY="363.0" mnemonicParsing="false" onAction="#kitap_ekle" prefHeight="48.0" prefWidth="77.0" text="Ekle" />
+      <Button layoutX="21.0" layoutY="363.0" mnemonicParsing="false" onAction="#geri_gel" prefHeight="48.0" prefWidth="77.0" text="Geri" />
+      <TextField fx:id="kitap_tur" layoutX="165.0" layoutY="239.0" />
+      <ListView fx:id="listview" layoutX="390.0" layoutY="37.0" prefHeight="233.0" prefWidth="277.0" />
+      <TextField fx:id="kitap_basim_tarihi" layoutX="165.0" layoutY="190.0" />
+   </children>
+</Pane>

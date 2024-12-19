@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.studentSignup">
+   <children>
+      <Label layoutX="51.0" layoutY="103.0" prefHeight="60.0" prefWidth="100.0" text="Ad:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="163.0" prefHeight="60.0" prefWidth="100.0" text="Soyad:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="223.0" prefHeight="60.0" prefWidth="100.0" text="Eposta">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="286.0" prefHeight="60.0" prefWidth="100.0" text="şifre:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="346.0" prefHeight="46.0" prefWidth="268.0" text="Ogrenci Numarası:">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ad" layoutX="341.0" layoutY="121.0" />
+      <TextField fx:id="soyad" layoutX="341.0" layoutY="181.0" />
+      <TextField fx:id="eposta" layoutX="341.0" layoutY="241.0" />
+      <TextField fx:id="sifre" layoutX="341.0" layoutY="304.0" />
+      <TextField fx:id="ogr_no" layoutX="341.0" layoutY="357.0" />
+      <Button fx:id="uyeOl_btn" layoutX="237.0" layoutY="422.0" mnemonicParsing="false" onAction="#uye_ol" prefHeight="36.0" prefWidth="104.0" text="Üye ol">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="111.0" layoutY="22.0" text="Öğrenci Kayıt Sayfası">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Button layoutX="7.0" layoutY="447.0" mnemonicParsing="false" onAction="#geri_gel" prefHeight="44.0" prefWidth="89.0" text="Geri">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

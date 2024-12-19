@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="838.0" prefWidth="951.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.book_update">
+   <children>
+      <ListView fx:id="book_list" layoutX="572.0" layoutY="79.0" prefHeight="426.0" prefWidth="365.0" />
+      <Button layoutX="14.0" layoutY="649.0" mnemonicParsing="false" onAction="#geri_gel" prefHeight="39.0" prefWidth="78.0" text="Geri" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="73.0" prefWidth="318.0" text="Kitap Güncelleme">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="99.0" prefHeight="60.0" prefWidth="113.0" text="Kitap Adı:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="159.0" prefHeight="60.0" prefWidth="119.0" text="Kitap Yazar:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="219.0" prefHeight="60.0" prefWidth="149.0" text="Kitap Yatınevi:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="279.0" prefHeight="60.0" prefWidth="182.0" text="Kitap Basım Tarihi:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="339.0" prefHeight="60.0" prefWidth="113.0" text="Kitap Türü:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kitap_adi" layoutX="204.0" layoutY="117.0" />
+      <TextField fx:id="kitap_yazari" layoutX="204.0" layoutY="177.0" />
+      <TextField fx:id="kitap_yayinevi" layoutX="204.0" layoutY="237.0" />
+      <TextField fx:id="kitap_basim_tarihi" layoutX="204.0" layoutY="297.0" />
+      <TextField fx:id="kitap_tur" layoutX="204.0" layoutY="357.0" />
+      <ListView fx:id="tur_list" layoutX="572.0" layoutY="531.0" prefHeight="288.0" prefWidth="365.0" />
+      <Button layoutX="21.0" layoutY="471.0" mnemonicParsing="false" onAction="#kitap_guncelle" prefHeight="60.0" prefWidth="143.0" text="Kaydet">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="870.0" layoutY="39.0" mnemonicParsing="false" onAction="#kitap_ara" prefHeight="25.0" prefWidth="67.0" text="Ara" />
+      <TextField fx:id="book_search" layoutX="572.0" layoutY="39.0" prefHeight="25.0" prefWidth="287.0" />
+   </children>
+</Pane>

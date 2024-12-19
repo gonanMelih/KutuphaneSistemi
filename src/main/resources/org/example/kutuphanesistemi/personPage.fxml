@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.personPage">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="57.0" prefWidth="316.0" text="Personel Adi Soyadi">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="97.0" prefHeight="41.0" prefWidth="200.0" text="Kitaplar İşlemleri">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="kitap_listele_btn" layoutX="14.0" layoutY="152.0" mnemonicParsing="false" onAction="#book_liste" prefHeight="50.0" prefWidth="133.0" text="Kitapları listele">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="kitap_ekle_btn" layoutX="166.0" layoutY="152.0" mnemonicParsing="false" onAction="#kitap_ekle" prefHeight="50.0" prefWidth="133.0" text="Kitapları Ekle">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="kitap_sil_btn" layoutX="314.0" layoutY="152.0" mnemonicParsing="false" onAction="#kitap_sil" prefHeight="50.0" prefWidth="133.0" text="Kitapları Sil">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="tur_ekle_btn" layoutX="656.0" layoutY="152.0" mnemonicParsing="false" onAction="#tur_ekle" prefHeight="50.0" prefWidth="158.0" text="Kitapları Türü Ekle">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="kitap_guncelle_btn" layoutX="465.0" layoutY="152.0" mnemonicParsing="false" onAction="#kitap_guncelle" prefHeight="50.0" prefWidth="158.0" text="Kitapları Güncelle">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="234.0" prefHeight="41.0" prefWidth="200.0" text="Kullanıcı İşlemleri">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="odunc_iade_btn" layoutX="14.0" layoutY="290.0" mnemonicParsing="false" onAction="#odunc_iade_btn" prefHeight="50.0" prefWidth="214.0" text="Ödünç Ver-İade Al">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="kitap_nerede_btn" layoutX="264.0" layoutY="290.0" mnemonicParsing="false" onAction="#kitap_nerede_btn" prefHeight="50.0" prefWidth="133.0" text="Kitap nerede">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="cikis_btn" layoutX="14.0" layoutY="604.0" mnemonicParsing="false" onAction="#cikis" prefHeight="50.0" prefWidth="116.0" text="Çıkış">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

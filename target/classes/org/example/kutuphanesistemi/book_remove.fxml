@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.book_remove">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="57.0" prefWidth="364.0" text="Kitap Silme Sayfası">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ListView fx:id="book_list" layoutX="15.0" layoutY="191.0" prefHeight="420.0" prefWidth="672.0" />
+      <Button layoutX="242.0" layoutY="145.0" mnemonicParsing="false" onAction="#kitap_sil" prefHeight="19.0" prefWidth="67.0" text="Sil">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="kitap_id" layoutX="128.0" layoutY="148.0" prefHeight="25.0" prefWidth="94.0" />
+      <Button layoutX="610.0" layoutY="14.0" mnemonicParsing="false" onAction="#geri_gel" prefHeight="51.0" prefWidth="77.0" text="Geri">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="22.0" layoutY="145.0" text="Kitap id">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="89.0" prefHeight="30.0" prefWidth="94.0" text="Kitap Adı:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kitap_adi" layoutX="128.0" layoutY="92.0" prefHeight="25.0" prefWidth="94.0" />
+      <Button layoutX="242.0" layoutY="89.0" mnemonicParsing="false" onAction="#kitap_ara" prefHeight="19.0" prefWidth="67.0" text="Ara">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

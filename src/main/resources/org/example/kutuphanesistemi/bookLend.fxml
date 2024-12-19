@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="878.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.bookLend">
+   <children>
+      <ListView fx:id="book_list_1" layoutX="642.0" layoutY="128.0" prefHeight="327.0" prefWidth="494.0" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="647.0" text="Ödünç Verme-İade alma Ekranı">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="101.0" prefHeight="60.0" prefWidth="177.0" text="Öğrenci No:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ogr_no" layoutX="173.0" layoutY="116.0" prefHeight="31.0" prefWidth="222.0" />
+      <Label layoutX="14.0" layoutY="177.0" prefHeight="60.0" prefWidth="134.0" text="Kitap ID:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kitap_id" layoutX="173.0" layoutY="184.0" prefHeight="31.0" prefWidth="222.0" />
+      <Button fx:id="iade_al_btn" layoutX="214.0" layoutY="252.0" mnemonicParsing="false" onAction="#iade_al_btn" prefHeight="79.0" prefWidth="140.0" text="İade Al">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="geri" layoutX="11.0" layoutY="785.0" mnemonicParsing="false" onAction="#geri_gel" prefHeight="79.0" prefWidth="140.0" text="Geri">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="odunc_ver_btn" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onAction="#odunc_ver_btn" prefHeight="79.0" prefWidth="140.0" text="Ödünç Ver">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <ListView fx:id="book_list_2" layoutX="642.0" layoutY="537.0" prefHeight="327.0" prefWidth="494.0" />
+   </children>
+</Pane>
