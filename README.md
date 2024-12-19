@@ -8,7 +8,7 @@ Personeller ise kitapları listeleyebilir, kitap ekleyebilir ,kitap silebilir, k
 Giriş sayfasında öğrenci üyelik oluşturup öğrenci sayfasına giriş yapabilir ancak personel üyelik oluşturamaz. Sadece sisteme giriş yapabilir.
 
 
-Sistemde Singleton, Abstract Factory, State, Observer tasarım desenleri kullanılmıştır./n
+Sistemde Singleton, Abstract Factory, State, Observer tasarım desenleri kullanılmıştır.
 Singleton -> Veritabanı bağlantısında kullanılmıştır.
 Abstract Factory -> Yeni bit tür ekleme işleminde kullanılmıştır.
 State -> Kitabın ödünç ve iade durumununu yönetmekte kullanılmıştır.
