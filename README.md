@@ -9,21 +9,29 @@ Giriş sayfasında öğrenci üyelik oluşturup öğrenci sayfasına giriş yapa
 
 
 Sistemde Singleton, Abstract Factory, State, Observer tasarım desenleri kullanılmıştır.
+
 Singleton -> Veritabanı bağlantısında kullanılmıştır.
+
 Abstract Factory -> Yeni bit tür ekleme işleminde kullanılmıştır.
+
 State -> Kitabın ödünç ve iade durumununu yönetmekte kullanılmıştır.
+
 Observer -> Kitabın ödünç veya iade edilme durumunda kitabı alan öğrenciye bildirim göndermede kullanılmıştır.
 
 Projede bir tane abstract sınıf kullanılmıştır. Kullanıcıların login işlemlerinde doğrulama işlemi için kullanılmıştır.
 
 
 Singleton sınıfı -> DBConnector
+
 Abstract Factory -> ItypeAdd,typeAddModel, ItypeAddFactory, typeAddFactory, typeFactory
+
 State -> IbookLendState, Lend, LendReturn,
+
 Observer -> Subject, Observer, Student, duyuru
+
 Abstract class -> Login, student_login, person_login
 
-
 Furkan Görür https://github.com/FurkanGorur
+
 Melih Gönan https://github.com/gonanMelih
 
